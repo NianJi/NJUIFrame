@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A39440621FF11EB10069F4AD /* NJNavigationAnimatedTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = A39440361FF11EB10069F4AD /* NJNavigationAnimatedTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A39440631FF11EB10069F4AD /* NJNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = A39440371FF11EB10069F4AD /* NJNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A39440641FF11EB10069F4AD /* NJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39440381FF11EB10069F4AD /* NJTabBarController.m */; };
+		A39440651FF11EB10069F4AD /* NJUIFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = A39440391FF11EB10069F4AD /* NJUIFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A39440661FF11EB10069F4AD /* NJUIAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = A394403A1FF11EB10069F4AD /* NJUIAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A39440681FF11EB10069F4AD /* NJUIAppearancePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = A394403C1FF11EB10069F4AD /* NJUIAppearancePrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A39440691FF11EB10069F4AD /* UIViewController+NJUIFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = A394403D1FF11EB10069F4AD /* UIViewController+NJUIFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A394406A1FF11EB10069F4AD /* NJNavigationInteractiveTransitioningControl.h in Headers */ = {isa = PBXBuildFile; fileRef = A394403E1FF11EB10069F4AD /* NJNavigationInteractiveTransitioningControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A394406B1FF11EB10069F4AD /* NJNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = A394403F1FF11EB10069F4AD /* NJNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A394406D1FF11EB10069F4AD /* UINavigationItem+NJUIFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A39440411FF11EB10069F4AD /* UINavigationItem+NJUIFrame.m */; };
+		A394406F1FF11EB10069F4AD /* NJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39440431FF11EB10069F4AD /* NJNavigationController.m */; };
+		A39440701FF11EB10069F4AD /* NJNavigationAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = A39440441FF11EB10069F4AD /* NJNavigationAnimatedTransitioning.m */; };
+		A39440721FF11EB10069F4AD /* NJUIAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = A39440461FF11EB10069F4AD /* NJUIAppearance.m */; };
+		A39440731FF11EB10069F4AD /* NJTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = A39440471FF11EB10069F4AD /* NJTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A39440751FF11EB10069F4AD /* NJNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A39440491FF11EB10069F4AD /* NJNavigationBar.m */; };
+		A39440761FF11EB10069F4AD /* NJNavigationInteractiveTransitioningControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A394404A1FF11EB10069F4AD /* NJNavigationInteractiveTransitioningControl.m */; };
+		A39440771FF11EB10069F4AD /* UIViewController+NJUIFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A394404B1FF11EB10069F4AD /* UIViewController+NJUIFrame.m */; };
+		A39440791FF11EB10069F4AD /* NJUIFrame-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = A394404D1FF11EB10069F4AD /* NJUIFrame-Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
+		A394407A1FF11EB10069F4AD /* UINavigationItem+NJUIFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = A394404E1FF11EB10069F4AD /* UINavigationItem+NJUIFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A381C0ED1FF1213400FE30EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A39440361FF11EB10069F4AD /* NJNavigationAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJNavigationAnimatedTransitioning.h; sourceTree = "<group>"; };
+		A39440371FF11EB10069F4AD /* NJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJNavigationController.h; sourceTree = "<group>"; };
+		A39440381FF11EB10069F4AD /* NJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJTabBarController.m; sourceTree = "<group>"; };
+		A39440391FF11EB10069F4AD /* NJUIFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJUIFrame.h; sourceTree = "<group>"; };
+		A394403A1FF11EB10069F4AD /* NJUIAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJUIAppearance.h; sourceTree = "<group>"; };
+		A394403C1FF11EB10069F4AD /* NJUIAppearancePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJUIAppearancePrivate.h; sourceTree = "<group>"; };
+		A394403D1FF11EB10069F4AD /* UIViewController+NJUIFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NJUIFrame.h"; sourceTree = "<group>"; };
+		A394403E1FF11EB10069F4AD /* NJNavigationInteractiveTransitioningControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJNavigationInteractiveTransitioningControl.h; sourceTree = "<group>"; };
+		A394403F1FF11EB10069F4AD /* NJNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJNavigationBar.h; sourceTree = "<group>"; };
+		A39440411FF11EB10069F4AD /* UINavigationItem+NJUIFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+NJUIFrame.m"; sourceTree = "<group>"; };
+		A39440431FF11EB10069F4AD /* NJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJNavigationController.m; sourceTree = "<group>"; };
+		A39440441FF11EB10069F4AD /* NJNavigationAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJNavigationAnimatedTransitioning.m; sourceTree = "<group>"; };
+		A39440461FF11EB10069F4AD /* NJUIAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJUIAppearance.m; sourceTree = "<group>"; };
+		A39440471FF11EB10069F4AD /* NJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJTabBarController.h; sourceTree = "<group>"; };
+		A39440491FF11EB10069F4AD /* NJNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJNavigationBar.m; sourceTree = "<group>"; };
+		A394404A1FF11EB10069F4AD /* NJNavigationInteractiveTransitioningControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJNavigationInteractiveTransitioningControl.m; sourceTree = "<group>"; };
+		A394404B1FF11EB10069F4AD /* UIViewController+NJUIFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NJUIFrame.m"; sourceTree = "<group>"; };
+		A394404C1FF11EB10069F4AD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A394404D1FF11EB10069F4AD /* NJUIFrame-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NJUIFrame-Prefix.pch"; sourceTree = "<group>"; };
+		A394404E1FF11EB10069F4AD /* UINavigationItem+NJUIFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+NJUIFrame.h"; sourceTree = "<group>"; };
+		D85037CF1B9C6D8400864DF0 /* NJUIFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = NJUIFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85037D21B9C6D8400864DF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D85037CA1B9C6D8400864DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A381C0EE1FF121A400FE30EA /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A39440471FF11EB10069F4AD /* NJTabBarController.h */,
+				A39440381FF11EB10069F4AD /* NJTabBarController.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		A381C0EF1FF121AA00FE30EA /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				A39440361FF11EB10069F4AD /* NJNavigationAnimatedTransitioning.h */,
+				A39440441FF11EB10069F4AD /* NJNavigationAnimatedTransitioning.m */,
+				A394403E1FF11EB10069F4AD /* NJNavigationInteractiveTransitioningControl.h */,
+				A394404A1FF11EB10069F4AD /* NJNavigationInteractiveTransitioningControl.m */,
+				A39440371FF11EB10069F4AD /* NJNavigationController.h */,
+				A39440431FF11EB10069F4AD /* NJNavigationController.m */,
+				A394403F1FF11EB10069F4AD /* NJNavigationBar.h */,
+				A39440491FF11EB10069F4AD /* NJNavigationBar.m */,
+				A39440411FF11EB10069F4AD /* UINavigationItem+NJUIFrame.m */,
+				A394404E1FF11EB10069F4AD /* UINavigationItem+NJUIFrame.h */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		A39440351FF11EB10069F4AD /* NJUIFrame */ = {
+			isa = PBXGroup;
+			children = (
+				A39440391FF11EB10069F4AD /* NJUIFrame.h */,
+				A394403A1FF11EB10069F4AD /* NJUIAppearance.h */,
+				A39440461FF11EB10069F4AD /* NJUIAppearance.m */,
+				A394403C1FF11EB10069F4AD /* NJUIAppearancePrivate.h */,
+				A381C0EF1FF121AA00FE30EA /* Navigation */,
+				A381C0EE1FF121A400FE30EA /* TabBar */,
+				A394403D1FF11EB10069F4AD /* UIViewController+NJUIFrame.h */,
+				A394404B1FF11EB10069F4AD /* UIViewController+NJUIFrame.m */,
+				A394404D1FF11EB10069F4AD /* NJUIFrame-Prefix.pch */,
+				A394404C1FF11EB10069F4AD /* Info.plist */,
+			);
+			path = NJUIFrame;
+			sourceTree = "<group>";
+		};
+		D85037C41B9C6D8400864DF0 = {
+			isa = PBXGroup;
+			children = (
+				A39440351FF11EB10069F4AD /* NJUIFrame */,
+				D85037D11B9C6D8400864DF0 /* Frameworks */,
+				D85037D01B9C6D8400864DF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D85037D01B9C6D8400864DF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D85037CF1B9C6D8400864DF0 /* NJUIFrame.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D85037D11B9C6D8400864DF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A381C0ED1FF1213400FE30EA /* UIKit.framework */,
+				D85037D21B9C6D8400864DF0 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D85037CB1B9C6D8400864DF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A394407A1FF11EB10069F4AD /* UINavigationItem+NJUIFrame.h in Headers */,
+				A39440661FF11EB10069F4AD /* NJUIAppearance.h in Headers */,
+				A39440791FF11EB10069F4AD /* NJUIFrame-Prefix.pch in Headers */,
+				A39440731FF11EB10069F4AD /* NJTabBarController.h in Headers */,
+				A39440631FF11EB10069F4AD /* NJNavigationController.h in Headers */,
+				A394406A1FF11EB10069F4AD /* NJNavigationInteractiveTransitioningControl.h in Headers */,
+				A394406B1FF11EB10069F4AD /* NJNavigationBar.h in Headers */,
+				A39440651FF11EB10069F4AD /* NJUIFrame.h in Headers */,
+				A39440621FF11EB10069F4AD /* NJNavigationAnimatedTransitioning.h in Headers */,
+				A39440691FF11EB10069F4AD /* UIViewController+NJUIFrame.h in Headers */,
+				A39440681FF11EB10069F4AD /* NJUIAppearancePrivate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D85037CE1B9C6D8400864DF0 /* NJUIFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85037E11B9C6D8500864DF0 /* Build configuration list for PBXNativeTarget "NJUIFrame" */;
+			buildPhases = (
+				D85037C91B9C6D8400864DF0 /* Sources */,
+				D85037CA1B9C6D8400864DF0 /* Frameworks */,
+				D85037CB1B9C6D8400864DF0 /* Headers */,
+				D85037CC1B9C6D8400864DF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NJUIFrame;
+			productName = NJUIFrame;
+			productReference = D85037CF1B9C6D8400864DF0 /* NJUIFrame.framework */;
+			productType = "com.apple.product-type.framework.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D85037C51B9C6D8400864DF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Taobao lnc.";
+				TargetAttributes = {
+					D85037CE1B9C6D8400864DF0 = {
+						CreatedOnToolsVersion = 6.4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D85037C81B9C6D8400864DF0 /* Build configuration list for PBXProject "NJUIFrame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D85037C41B9C6D8400864DF0;
+			productRefGroup = D85037D01B9C6D8400864DF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D85037CE1B9C6D8400864DF0 /* NJUIFrame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D85037CC1B9C6D8400864DF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D85037C91B9C6D8400864DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39440721FF11EB10069F4AD /* NJUIAppearance.m in Sources */,
+				A39440751FF11EB10069F4AD /* NJNavigationBar.m in Sources */,
+				A394406D1FF11EB10069F4AD /* UINavigationItem+NJUIFrame.m in Sources */,
+				A39440641FF11EB10069F4AD /* NJTabBarController.m in Sources */,
+				A39440701FF11EB10069F4AD /* NJNavigationAnimatedTransitioning.m in Sources */,
+				A39440771FF11EB10069F4AD /* UIViewController+NJUIFrame.m in Sources */,
+				A39440761FF11EB10069F4AD /* NJNavigationInteractiveTransitioningControl.m in Sources */,
+				A394406F1FF11EB10069F4AD /* NJNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D85037DF1B9C6D8500864DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		D85037E01B9C6D8500864DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		D85037E21B9C6D8500864DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NJUIFrame/NJUIFrame-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "$(SRCROOT)/NJUIFrame/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 x86_64 i386 armv7";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		D85037E31B9C6D8500864DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NJUIFrame/NJUIFrame-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "$(SRCROOT)/NJUIFrame/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 x86_64 i386 armv7";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D85037C81B9C6D8400864DF0 /* Build configuration list for PBXProject "NJUIFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85037DF1B9C6D8500864DF0 /* Debug */,
+				D85037E01B9C6D8500864DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85037E11B9C6D8500864DF0 /* Build configuration list for PBXNativeTarget "NJUIFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85037E21B9C6D8500864DF0 /* Debug */,
+				D85037E31B9C6D8500864DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D85037C51B9C6D8400864DF0 /* Project object */;
+}

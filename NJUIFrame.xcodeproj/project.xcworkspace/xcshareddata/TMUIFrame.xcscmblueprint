@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9264E3638E524290A810B461455E0D60EB67ABD0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6F436ACFD72230E819A5102F22B2E322C54666C0" : 9223372036854775807,
+    "9264E3638E524290A810B461455E0D60EB67ABD0" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C19A8CB8-18BF-4FCC-B185-5F4654B4C632",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6F436ACFD72230E819A5102F22B2E322C54666C0" : "..",
+    "9264E3638E524290A810B461455E0D60EB67ABD0" : "TMUIFrame\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TMUIFrame",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TMUIFrame.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.alibaba-inc.com:tmallwireless\/tmall4iphone.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6F436ACFD72230E819A5102F22B2E322C54666C0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.alibaba-inc.com:tmallwireless\/TMUIFrame.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9264E3638E524290A810B461455E0D60EB67ABD0"
+    }
+  ]
+}
