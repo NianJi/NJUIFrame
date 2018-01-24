@@ -7,18 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <NJUIFrame/NJCustomNavigationBar.h>
 
 @interface UINavigationItem (NJUIFrame)
 
 @property (nonatomic, strong, readonly) UIBarButtonItem *njMoreBarButtonItem;
 @property (nonatomic, strong, readonly) UIBarButtonItem *njLeftBarButtonItem;
 
-@property (nonatomic, strong, readonly) UIImageView *njNavigationBarBackgroundView;
+// 每个页面自己的导航条， 默认是NJCustomNavigationBar
+@property (nonatomic, strong) UIView<NJCustomNavigationBarView> *njCustomNavigationBar;
+
+@property (nonatomic, weak) UINavigationController *navigationController;
 
 @end
 
 @interface UIBarButtonItem (NJUIFrame)
 
-@property (nonatomic, copy) void(^njActionBlock)();
+@property (nonatomic, copy) void(^njActionBlock)(void);
 
 @end

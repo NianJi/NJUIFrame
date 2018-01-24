@@ -8,6 +8,8 @@
 
 #import "NJNavigationBar.h"
 #import "UINavigationItem+NJUIFrame.h"
+#import "NJNavigationItem.h"
+#import <objc/runtime.h>
 
 @interface NJNavigationBar () <UINavigationBarDelegate>
 {
@@ -19,15 +21,6 @@
 @end
 
 @implementation NJNavigationBar
-
-- (instancetype)initWithFrame:(CGRect)frame
-{
-    self = [super initWithFrame:frame];
-    if (self) {
-
-    }
-    return self;
-}
 
 - (UIView *)backgroundContainerView
 {
@@ -64,6 +57,9 @@
 
 - (void)pushNavigationItem:(UINavigationItem *)item animated:(BOOL)animated
 {
+    if (item) {
+        object_setClass(item, [NJNavigationItem class]);
+    }
     [super pushNavigationItem:item animated:animated];
 }
 
@@ -71,13 +67,6 @@
 {
     [super layoutSubviews];
     
-    UINavigationItem *topItem  = [self topItem];
-    if (topItem) {
-        UIImageView *topImageView = [topItem njNavigationBarBackgroundView];
-        if (topImageView != _currentBackgroundImageView) {
-            [self setBackgroundImageView:topImageView];
-        }
-    }
 }
 
 @end

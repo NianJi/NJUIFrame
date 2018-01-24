@@ -24,9 +24,7 @@
  *  下面两个方法可用来做通用降级操作，即把当前视图栈里面的自己pop掉，然后push一个新的vc替换自己
  */
 - (void)njRedirectToViewController:(UIViewController *)viewController;
-- (void)njRedirectToURL:(NSURL *)vcURL;
 
 
-@property (nonatomic, assign) CGFloat njNavigationBarHeight;
 
 @end

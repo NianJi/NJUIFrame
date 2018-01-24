@@ -48,4 +48,21 @@
     return [UIColor whiteColor];
 }
 
+#pragma mark - supported orientation
+
+- (UIInterfaceOrientationMask)supportedInterfaceOrientation
+{
+    return UIInterfaceOrientationMaskAll;
+}
+
+- (BOOL)shouldAutorotate
+{
+    return YES;
+}
+
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
+{
+    return UIInterfaceOrientationPortrait;
+}
+
 @end

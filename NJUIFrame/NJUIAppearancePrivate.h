@@ -11,11 +11,9 @@
 
 #import "NJUIAppearance.h" 
 
-@interface NJUIAppearance (Private)
+@interface NJUIAppearance (Private) <NJUIColorAppearance, NJUIInterfaceOrientationAppearance>
 
-- (UIColor *)viewBgColor;
-- (UIColor *)tabBarBgColor;
-- (UIColor *)navigationBarBgColor;
+
 
 @end
 

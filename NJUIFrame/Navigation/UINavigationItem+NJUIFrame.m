@@ -9,6 +9,7 @@
 #import "UINavigationItem+NJUIFrame.h"
 #import <objc/runtime.h>
 #import "NJUIAppearancePrivate.h"
+#import "NJUIUtils.h"
 
 @implementation UINavigationItem (NJUIFrame)
 
@@ -42,17 +43,20 @@ static const char kNJUIFrame_NavigationItem_BackButton_Key;
     }
 }
 
-static const char kNJUIFrame_NavigationItem_BarBgView_Key;
-- (UIImageView *)njNavigationBarBackgroundView
+static const char kNJUIFrame_CustomNavBar_Key;
+- (UIView<NJCustomNavigationBarView> *)njCustomNavigationBar
 {
-    UIImageView *bgView = objc_getAssociatedObject(self, &kNJUIFrame_NavigationItem_BarBgView_Key);
-    if (!bgView) {
-        CGFloat screenWidth = CGRectGetWidth([[UIScreen mainScreen] bounds]);
-        bgView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, screenWidth, 64)];
-        bgView.backgroundColor = [[NJUIAppearance sharedAppearance] navigationBarBgColor];
-        objc_setAssociatedObject(self, &kNJUIFrame_NavigationItem_BarBgView_Key, bgView, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    UIView<NJCustomNavigationBarView> *view = objc_getAssociatedObject(self, &kNJUIFrame_CustomNavBar_Key);
+    if (!view) {
+        view = [[NJCustomNavigationBar alloc] initWithFrame:[NJUIUtils navigationBarBounds]];
+        objc_setAssociatedObject(self, &kNJUIFrame_CustomNavBar_Key, view, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     }
-    return bgView;
+    return view;
+}
+
+- (void)setNjCustomNavigationBar:(UIView<NJCustomNavigationBarView> *)njCustomNavigationBar
+{
+    objc_setAssociatedObject(self, &kNJUIFrame_CustomNavBar_Key, njCustomNavigationBar, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 @end
@@ -61,12 +65,12 @@ static const char kNJUIFrame_NavigationItem_BarBgView_Key;
 @implementation UIBarButtonItem (NJUIFrame)
 
 static const char kNJUIFrame_NavigationItem_ActionBlock_Key;
-- (void (^)())njActionBlock
+- (void (^)(void))njActionBlock
 {
     return objc_getAssociatedObject(self, &kNJUIFrame_NavigationItem_ActionBlock_Key);
 }
 
-- (void)setTmActionBlock:(void (^)())njActionBlock
+- (void)setNjActionBlock:(void (^)(void))njActionBlock
 {
     objc_setAssociatedObject(self, &kNJUIFrame_NavigationItem_ActionBlock_Key, [njActionBlock copy], OBJC_ASSOCIATION_COPY_NONATOMIC);
 }

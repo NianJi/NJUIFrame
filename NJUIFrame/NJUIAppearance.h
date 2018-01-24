@@ -16,10 +16,20 @@
 
 @end
 
+@protocol NJUIInterfaceOrientationAppearance <NSObject>
+
+- (UIInterfaceOrientationMask)supportedInterfaceOrientation;
+- (BOOL)shouldAutorotate;
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation;
+
+@end
+
+
 @interface NJUIAppearance : NSObject
 
 + (instancetype)sharedAppearance;
 
 @property (nonatomic, strong) id<NJUIColorAppearance> colorAppearance;
+@property (nonatomic, strong) id<NJUIInterfaceOrientationAppearance> orientationAppearance;
 
 @end

@@ -13,12 +13,13 @@
 #import <NJUIFrame/UIViewController+NJUIFrame.h>
 
 
-
-#import <NJUIFrame/NJViewController.h>
-
 #import <NJUIFrame/NJNavigationBar.h>
 #import <NJUIFrame/NJNavigationController.h>
 #import <NJUIFrame/NJTabBarController.h>
 
 #import <NJUIFrame/NJNavigationAnimatedTransitioning.h>
 #import <NJUIFrame/NJNavigationInteractiveTransitioningControl.h>
+
+
+// views
+#import <NJUIFrame/NJBadgeView.h>

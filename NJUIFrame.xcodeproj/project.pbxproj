@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A308542B1FFBA93A001E8863 /* NJUITabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = A30854291FFBA93A001E8863 /* NJUITabBar.h */; };
+		A308542C1FFBA93A001E8863 /* NJUITabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A308542A1FFBA93A001E8863 /* NJUITabBar.m */; };
+		A37F88721FFF819C0033DE53 /* NJCustomTabBarItemButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A37F88701FFF819C0033DE53 /* NJCustomTabBarItemButton.h */; };
+		A37F88731FFF819C0033DE53 /* NJCustomTabBarItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A37F88711FFF819C0033DE53 /* NJCustomTabBarItemButton.m */; };
+		A37F88761FFF81CC0033DE53 /* NJBadgeView.h in Headers */ = {isa = PBXBuildFile; fileRef = A37F88741FFF81CC0033DE53 /* NJBadgeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A37F88771FFF81CC0033DE53 /* NJBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = A37F88751FFF81CC0033DE53 /* NJBadgeView.m */; };
+		A37F887A1FFFA0EA0033DE53 /* NJCustomNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = A37F88781FFFA0EA0033DE53 /* NJCustomNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A37F887B1FFFA0EA0033DE53 /* NJCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A37F88791FFFA0EA0033DE53 /* NJCustomNavigationBar.m */; };
+		A37F887E1FFFA1290033DE53 /* NJNavigationItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A37F887C1FFFA1290033DE53 /* NJNavigationItem.h */; };
+		A37F887F1FFFA1290033DE53 /* NJNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A37F887D1FFFA1290033DE53 /* NJNavigationItem.m */; };
+		A37F88821FFFAE0A0033DE53 /* NJUIUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A37F88801FFFAE0A0033DE53 /* NJUIUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A37F88831FFFAE0A0033DE53 /* NJUIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A37F88811FFFAE0A0033DE53 /* NJUIUtils.m */; };
+		A381C0F41FF1296300FE30EA /* NJCustomTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = A381C0F21FF1296300FE30EA /* NJCustomTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A381C0F51FF1296300FE30EA /* NJCustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A381C0F31FF1296300FE30EA /* NJCustomTabBar.m */; };
 		A39440621FF11EB10069F4AD /* NJNavigationAnimatedTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = A39440361FF11EB10069F4AD /* NJNavigationAnimatedTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A39440631FF11EB10069F4AD /* NJNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = A39440371FF11EB10069F4AD /* NJNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A39440641FF11EB10069F4AD /* NJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39440381FF11EB10069F4AD /* NJTabBarController.m */; };
@@ -29,7 +43,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A30854291FFBA93A001E8863 /* NJUITabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJUITabBar.h; sourceTree = "<group>"; };
+		A308542A1FFBA93A001E8863 /* NJUITabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJUITabBar.m; sourceTree = "<group>"; };
+		A37F88701FFF819C0033DE53 /* NJCustomTabBarItemButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJCustomTabBarItemButton.h; sourceTree = "<group>"; };
+		A37F88711FFF819C0033DE53 /* NJCustomTabBarItemButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJCustomTabBarItemButton.m; sourceTree = "<group>"; };
+		A37F88741FFF81CC0033DE53 /* NJBadgeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJBadgeView.h; sourceTree = "<group>"; };
+		A37F88751FFF81CC0033DE53 /* NJBadgeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJBadgeView.m; sourceTree = "<group>"; };
+		A37F88781FFFA0EA0033DE53 /* NJCustomNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJCustomNavigationBar.h; sourceTree = "<group>"; };
+		A37F88791FFFA0EA0033DE53 /* NJCustomNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJCustomNavigationBar.m; sourceTree = "<group>"; };
+		A37F887C1FFFA1290033DE53 /* NJNavigationItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJNavigationItem.h; sourceTree = "<group>"; };
+		A37F887D1FFFA1290033DE53 /* NJNavigationItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJNavigationItem.m; sourceTree = "<group>"; };
+		A37F88801FFFAE0A0033DE53 /* NJUIUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJUIUtils.h; sourceTree = "<group>"; };
+		A37F88811FFFAE0A0033DE53 /* NJUIUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJUIUtils.m; sourceTree = "<group>"; };
 		A381C0ED1FF1213400FE30EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A381C0F21FF1296300FE30EA /* NJCustomTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJCustomTabBar.h; sourceTree = "<group>"; };
+		A381C0F31FF1296300FE30EA /* NJCustomTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJCustomTabBar.m; sourceTree = "<group>"; };
 		A39440361FF11EB10069F4AD /* NJNavigationAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJNavigationAnimatedTransitioning.h; sourceTree = "<group>"; };
 		A39440371FF11EB10069F4AD /* NJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJNavigationController.h; sourceTree = "<group>"; };
 		A39440381FF11EB10069F4AD /* NJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJTabBarController.m; sourceTree = "<group>"; };
@@ -65,11 +93,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A30854281FFBA894001E8863 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A37F88741FFF81CC0033DE53 /* NJBadgeView.h */,
+				A37F88751FFF81CC0033DE53 /* NJBadgeView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A381C0EE1FF121A400FE30EA /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
 				A39440471FF11EB10069F4AD /* NJTabBarController.h */,
 				A39440381FF11EB10069F4AD /* NJTabBarController.m */,
+				A381C0F21FF1296300FE30EA /* NJCustomTabBar.h */,
+				A381C0F31FF1296300FE30EA /* NJCustomTabBar.m */,
+				A37F88701FFF819C0033DE53 /* NJCustomTabBarItemButton.h */,
+				A37F88711FFF819C0033DE53 /* NJCustomTabBarItemButton.m */,
+				A30854291FFBA93A001E8863 /* NJUITabBar.h */,
+				A308542A1FFBA93A001E8863 /* NJUITabBar.m */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -85,8 +128,12 @@
 				A39440431FF11EB10069F4AD /* NJNavigationController.m */,
 				A394403F1FF11EB10069F4AD /* NJNavigationBar.h */,
 				A39440491FF11EB10069F4AD /* NJNavigationBar.m */,
-				A39440411FF11EB10069F4AD /* UINavigationItem+NJUIFrame.m */,
+				A37F88781FFFA0EA0033DE53 /* NJCustomNavigationBar.h */,
+				A37F88791FFFA0EA0033DE53 /* NJCustomNavigationBar.m */,
 				A394404E1FF11EB10069F4AD /* UINavigationItem+NJUIFrame.h */,
+				A39440411FF11EB10069F4AD /* UINavigationItem+NJUIFrame.m */,
+				A37F887C1FFFA1290033DE53 /* NJNavigationItem.h */,
+				A37F887D1FFFA1290033DE53 /* NJNavigationItem.m */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -97,7 +144,10 @@
 				A39440391FF11EB10069F4AD /* NJUIFrame.h */,
 				A394403A1FF11EB10069F4AD /* NJUIAppearance.h */,
 				A39440461FF11EB10069F4AD /* NJUIAppearance.m */,
+				A37F88801FFFAE0A0033DE53 /* NJUIUtils.h */,
+				A37F88811FFFAE0A0033DE53 /* NJUIUtils.m */,
 				A394403C1FF11EB10069F4AD /* NJUIAppearancePrivate.h */,
+				A30854281FFBA894001E8863 /* Views */,
 				A381C0EF1FF121AA00FE30EA /* Navigation */,
 				A381C0EE1FF121A400FE30EA /* TabBar */,
 				A394403D1FF11EB10069F4AD /* UIViewController+NJUIFrame.h */,
@@ -145,13 +195,20 @@
 				A39440661FF11EB10069F4AD /* NJUIAppearance.h in Headers */,
 				A39440791FF11EB10069F4AD /* NJUIFrame-Prefix.pch in Headers */,
 				A39440731FF11EB10069F4AD /* NJTabBarController.h in Headers */,
+				A37F88721FFF819C0033DE53 /* NJCustomTabBarItemButton.h in Headers */,
+				A37F887A1FFFA0EA0033DE53 /* NJCustomNavigationBar.h in Headers */,
 				A39440631FF11EB10069F4AD /* NJNavigationController.h in Headers */,
 				A394406A1FF11EB10069F4AD /* NJNavigationInteractiveTransitioningControl.h in Headers */,
 				A394406B1FF11EB10069F4AD /* NJNavigationBar.h in Headers */,
 				A39440651FF11EB10069F4AD /* NJUIFrame.h in Headers */,
 				A39440621FF11EB10069F4AD /* NJNavigationAnimatedTransitioning.h in Headers */,
+				A381C0F41FF1296300FE30EA /* NJCustomTabBar.h in Headers */,
 				A39440691FF11EB10069F4AD /* UIViewController+NJUIFrame.h in Headers */,
+				A37F887E1FFFA1290033DE53 /* NJNavigationItem.h in Headers */,
+				A37F88821FFFAE0A0033DE53 /* NJUIUtils.h in Headers */,
+				A308542B1FFBA93A001E8863 /* NJUITabBar.h in Headers */,
 				A39440681FF11EB10069F4AD /* NJUIAppearancePrivate.h in Headers */,
+				A37F88761FFF81CC0033DE53 /* NJBadgeView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,13 +281,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A37F887B1FFFA0EA0033DE53 /* NJCustomNavigationBar.m in Sources */,
+				A37F88771FFF81CC0033DE53 /* NJBadgeView.m in Sources */,
 				A39440721FF11EB10069F4AD /* NJUIAppearance.m in Sources */,
 				A39440751FF11EB10069F4AD /* NJNavigationBar.m in Sources */,
+				A381C0F51FF1296300FE30EA /* NJCustomTabBar.m in Sources */,
+				A37F88831FFFAE0A0033DE53 /* NJUIUtils.m in Sources */,
+				A37F88731FFF819C0033DE53 /* NJCustomTabBarItemButton.m in Sources */,
 				A394406D1FF11EB10069F4AD /* UINavigationItem+NJUIFrame.m in Sources */,
 				A39440641FF11EB10069F4AD /* NJTabBarController.m in Sources */,
+				A308542C1FFBA93A001E8863 /* NJUITabBar.m in Sources */,
 				A39440701FF11EB10069F4AD /* NJNavigationAnimatedTransitioning.m in Sources */,
 				A39440771FF11EB10069F4AD /* UIViewController+NJUIFrame.m in Sources */,
 				A39440761FF11EB10069F4AD /* NJNavigationInteractiveTransitioningControl.m in Sources */,
+				A37F887F1FFFA1290033DE53 /* NJNavigationItem.m in Sources */,
 				A394406F1FF11EB10069F4AD /* NJNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,7 +390,10 @@
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NJUIFrame/NJUIFrame-Prefix.pch";
-				HEADER_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../Pods/Headers/Public",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/NJUIFrame/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
@@ -356,7 +423,10 @@
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NJUIFrame/NJUIFrame-Prefix.pch";
-				HEADER_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../Pods/Headers/Public",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/NJUIFrame/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";

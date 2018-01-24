@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <NJUIFrame/NJCustomTabBar.h>
 
 @interface NJTabBarController : UITabBarController
+
+@property (nonatomic, strong) NJCustomTabBar *customTabBar;
 
 @end
